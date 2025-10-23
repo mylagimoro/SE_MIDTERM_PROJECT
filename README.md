@@ -50,19 +50,6 @@ Example full request: `GET https://se-midterm-project.onrender.com/api/patients`
 }
 ```
 
-```json
-
-{
-  "_id": "671a8fa04fc9a1b5c47c1e32",
-  "name": "Juan Dela Cruz",
-  "birthDate": "1990-05-01T00:00:00.000Z",
-  "email": "juan@example.com",
-  "phone": "09171234567",
-  "createdAt": "2025-10-22T10:00:00.000Z",
-  "updatedAt": "2025-10-22T10:00:00.000Z"
-}
-```
-
 **GET /api/patients** — Retrieve All Patients
 
 ```json
@@ -77,8 +64,6 @@ Example full request: `GET https://se-midterm-project.onrender.com/api/patients`
 ]
 ```
 
----
-
 ### 🩺 Doctors
 
 **POST /api/doctors** — Create Doctor
@@ -88,17 +73,6 @@ Example full request: `GET https://se-midterm-project.onrender.com/api/patients`
 {
   "name": "Dr. Ana Cruz",
   "specialty": "Pediatrics"
-}
-```
-
-```json
-
-{
-  "_id": "671a90524fc9a1b5c47c1e55",
-  "name": "Dr. Ana Cruz",
-  "specialty": "Pediatrics",
-  "createdAt": "2025-10-22T10:05:00.000Z",
-  "updatedAt": "2025-10-22T10:05:00.000Z"
 }
 ```
 
@@ -132,25 +106,6 @@ Example full request: `GET https://se-midterm-project.onrender.com/api/patients`
 }
 ```
 
-```json
-
-{
-  "_id": "671a91b24fc9a1b5c47c1e70",
-  "patientId": {
-    "_id": "671a8fa04fc9a1b5c47c1e32",
-    "name": "Juan Dela Cruz"
-  },
-  "doctorId": {
-    "_id": "671a90524fc9a1b5c47c1e55",
-    "name": "Dr. Ana Cruz",
-    "specialty": "Pediatrics"
-  },
-  "startAt": "2025-10-25T09:00:00.000Z",
-  "endAt": "2025-10-25T09:30:00.000Z",
-  "notes": "Initial consultation",
-  "createdAt": "2025-10-22T10:10:00.000Z"
-}
-```
 
 **GET /api/appointments** — Retrieve All Appointments
 
