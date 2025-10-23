@@ -28,9 +28,9 @@
 
 ## Example Base URL
 
-`https://your-api-name.onrender.com`
+https://se-midterm-project.onrender.com
 
-Example full request: `GET https://your-api-name.onrender.com/api/patients`
+Example full request: `GET https://se-midterm-project.onrender.com/api/patients`
 
 ---
 
