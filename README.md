@@ -26,7 +26,7 @@
 
 ---
 
-## Example Base URL
+## Base URL
 
 https://se-midterm-project.onrender.com
 
